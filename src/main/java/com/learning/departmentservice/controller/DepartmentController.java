@@ -28,6 +28,6 @@ public class DepartmentController {
 
     @GetMapping("/{id}")
     public Department getDepartmentById(@PathVariable("id") Long departmentId) {
-        return departmentService.getDepartmentById(departmentId);
+        return departmentService.getDepartmentById(departmen
     }
 }
